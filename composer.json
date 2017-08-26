@@ -2,12 +2,12 @@
   "name": "rgot-org/siphash",
   "version": "0.0.1",
   "type": "library",
-  "description": "SipHash PHP implementation (-2-4 so far) works on 32bits platforms",
-  "license": "MIT",
+  "description": "SipHash-2-4 PHP implementation works on 32bits platforms",
+  "license": "GNU",
   "authors": [
     {
       "name": "Francois Riotte",
-      "email": "esc@rgot-org.org",
+      "email": "esc@rgot.org",
       "homepage": "http://rgot.org",
       "role": "Developer"
     }
