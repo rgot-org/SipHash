@@ -1,0 +1,52 @@
+{
+  "name": "rgot-org/siphash",
+  "version": "0.0.1",
+  "type": "library",
+  "description": "SipHash PHP implementation (-2-4 so far) works on 32bits platforms",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francois Riotte",
+      "email": "esc@rgot-org.org",
+      "homepage": "http://rgot.org",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/rgot-org/SipHash",
+  "keywords": [
+    "SipHash",
+    "hash",
+    "PHP"
+  ],
+  "main": "src/siphash.php",
+  "minimum-stability": "RC",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "rgot-org\\": "src"
+    }
+  },
+  "support": {
+    "email": "esc@rgot.org",
+    "issues": "https://github.com/rgot-org/SipHash/issues",
+    "source": "https://github.com/rgot-org/SipHash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgot-org/SipHash.git"
+  },
+  "archive": {
+    "exclude": [
+      "/tests",
+      "/tools",
+      "/docs",
+      "/.*"
+    ]
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  }
+}
