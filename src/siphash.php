@@ -1,6 +1,6 @@
 <?php
 
-namespace rgot-org;
+namespace rgot;
 
 class SipHash {
 
