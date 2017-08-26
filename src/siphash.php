@@ -158,7 +158,7 @@ class SipHash {
     }
 
     protected static function _rol_17bits(&$v) {
-        self::__rotl64_16($v);
+        self::_rotl64_16($v);
         self::_rotl64_xbits($v, 1);
     }
 
